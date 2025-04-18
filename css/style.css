@@ -37,7 +37,7 @@ body{
     margin: 1em;
     font-size: 16px;
     list-style-type: none;
-    font-size: large;
+    font-size: 18px;
 }
 
 .topMenu li.active{
@@ -46,7 +46,7 @@ body{
 }
 
 .banner{
-    width: 375px;
+    max-width: 375px;
     height: 119px;
     
     background-image: url("/images/bannerUK.png");
@@ -62,8 +62,13 @@ article{
 
 article h2{
     font-size: medium;
+    margin-bottom: 1em;
 }
 
+p{
+    text-align: justify;
+    margin: 10px;
+}
 
 .bottonMenu{
     display: flex;
@@ -71,9 +76,6 @@ article h2{
 
     position: fixed;
     bottom: 30px;
-    
-   
-  
 }
 
 .bottonMenu li{
@@ -89,6 +91,9 @@ article h2{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    box-shadow: 2px 2px 4px gray;
+
 }
 
 #classes{
