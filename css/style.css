@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Inter", sans-serif;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.tela{
+    width: 375px;
+    height: 812px;
+    background-color: #FFFFFF;
+}
+
+.topMenu{
+    display: flex;
+    justify-content: center;
+
+
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    font-weight: 500;
+}
+
+
+.topMenu li{
+    margin: 1em;
+    font-size: 16px;
+    list-style-type: none;
+    font-size: large;
+}
+
+.topMenu li.active{
+    color: red;
+    text-decoration: underline;
+}
+
+.banner{
+    width: 375px;
+    height: 119px;
+    
+    background-image: url("/images/bannerUK.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+article{
+    margin: 10% 10% 0 10%;
+}
+
+article h2{
+    font-size: medium;
+}
+
+
+.bottonMenu{
+    display: flex;
+    margin: 10% 10% 0 10%;
+
+    position: fixed;
+    bottom: 30px;
+    
+   
+  
+}
+
+.bottonMenu li{
+    width: 90px;
+    height: 35px;
+    list-style-type: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+
+    border-radius: 10px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#classes{
+    background-color: #D7263D;
+    margin-right: 10px;
+}
+
+#books{
+    background-color: #1B998B;  
+    margin-right: 10px; 
+}
+
+#music{
+    background-color: #F46036;
+}
+
