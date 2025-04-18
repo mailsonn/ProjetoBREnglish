@@ -49,7 +49,7 @@ body{
     max-width: 375px;
     height: 119px;
     
-    background-image: url("/images/bannerUK.png");
+    background-image: url("../images/bannerUK.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -58,11 +58,13 @@ body{
 
 article{
     margin: 10% 10% 0 10%;
+    
 }
 
 article h2{
     font-size: medium;
     margin-bottom: 1em;
+    text-align: justify;
 }
 
 p{
