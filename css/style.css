@@ -45,6 +45,11 @@ body{
     text-decoration: underline;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 .banner{
     max-width: 375px;
     height: 119px;
@@ -112,3 +117,50 @@ p{
     background-color: #F46036;
 }
 
+/*second page start here */
+
+.explainBoxes{
+    /*border: 2px solid black;*/
+    margin: 15%;
+}
+
+.explainBoxes .boxes{
+    display: flex;
+    align-items: center;
+    width: 100%px;
+    height: 60px;
+
+    /*border: 2px solid blue;*/
+}
+
+.boxes img{
+    max-width: 100%;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+}
+
+.boxes img{
+    margin-right: 1rem;
+}
+
+.boxes:nth-of-type(1){
+
+    
+}
+
+.boxes:nth-of-type(2){
+    margin-left: 6rem;
+}
+
+.boxes:nth-of-type(3){
+    
+}
+
+.boxes:nth-of-type(4){
+    margin-left: 6rem;
+}
+
+.ocultText{
+    display: none;
+}

@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Inter", sans-serif;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.tela{
+    width: 375px;
+    height: 812px;
+    background-color: #FFFFFF;
+}
+
+.topMenu{
+    display: flex;
+    justify-content: center;
+
+
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    font-weight: 500;
+}
+
+
+.topMenu li{
+    margin: 1em;
+    font-size: 16px;
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.topMenu li.active{
+    color: red;
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+article{
+    margin: 10% 10% 0 10%;
+    
+}
+
+article h2{
+    font-size: medium;
+    margin-bottom: 1em;
+    text-align: justify;
+}
+
+p{
+    text-align: justify;
+    margin: 10px;
+}
+
+
+/*third page start here */
+
+.container{
+    display: flex;
+    align-items: center;
+
+    flex-flow: column;
+}
+
+.titleClasses{
+    width: 258px;
+    height: 35px;
+    background-color: #D7263D;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+
+.boxVideo{
+    
+    width: 257px;
+    height: 161px;
+
+    border: solid 1px black;
+    border-radius: 5px;
+
+    margin-bottom: 45px;
+}
+
+.titleVocab{
+    width: 258px;
+    height: 35px;
+    background-color: #F46036;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 10px;
+}
+
+.boxVocab{
+    width: 257px;
+    height: 161px;
+
+    border: solid 1px black;
+    border-radius: 5px;
+
+    margin-bottom: 10px;
+}
+
+.titleBooks{
+    width: 258px;
+    height: 35px;
+    background-color: #1B998B;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 10px;
+}
+
+        
+.boxLibry{
+    width: 279px;
+    height: 84px;
+
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row;
+
+    flex-wrap: wrap;
+}
+
+.book1{
+    width: 74px;
+    height: 80px;
+
+    border: solid 1px black;
+}
